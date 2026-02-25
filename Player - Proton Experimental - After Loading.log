@@ -1,0 +1,143 @@
+Mono path[0] = 'Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/Managed'
+Mono config path = 'Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/MonoBleedingEdge/etc'
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.59f2 (ef281c76c3c1)
+[Subsystems] Discovering subsystems at path Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (RADV NAVI23) (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     7936 MB
+    Driver:   32.0.65535.65535
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.345 seconds
+- Finished resetting the current domain, in  0.007 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+--- Startup info ---
+Time (UTC): 2026-02-25T23:05:11Z
+Game version: 1.2.0.4-aded
+Unity version: 6000.0.59f2
+OS version: Windows 10  (10.0.19045) 64bit
+Graphics device: AMD Radeon RX 6600 (RADV NAVI23) (Direct3D11, Direct3D 11.0 [level 11.1])
+--- END Startup info ---
+CommandLineArgs.args[0]: Z:\home\tulio\.steam\debian-installation\steamapps\common\Core Keeper\CoreKeeper.exe
+Initializing Steamworks with AppID 1621690
+Steam API initialized branch=
+CommandLineArgs.args[0]: Z:\home\tulio\.steam\debian-installation\steamapps\common\Core Keeper\CoreKeeper.exe
+PlatformConfiguration: successfully loaded base platform configuration for variant PC.
+skipping disabled mod More Map Reveal
+loaded mod Double Chest Inventory from mod.io (Double Chest Inventory)
+loaded mod ExpandedChestUI from mod.io (Expanded Chest UI)
+skipping disabled mod Autofish
+steam initialized successfully.
+Steam stats received
+Steam stats received
+no subscribed workshop items found.
+steamworkshop loader has been initialized and async mod fetching query task completed
+Creating modified script files at C:/users/steamuser/AppData/Local/Temp/Pugstorm/Core Keeper\ModLoader\Double Chest Inventory
+Assembly 'Double Chest Inventory, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' has passed code security verification
+Successfully compiled Double Chest Inventory safetyCheck=True
+Creating modified script files at C:/users/steamuser/AppData/Local/Temp/Pugstorm/Core Keeper\ModLoader\ExpandedChestUI
+__Roslyn Compile Output__
+C:\users\steamuser\AppData\Local\Temp\Pugstorm\Core Keeper\ModLoader\ExpandedChestUI\Scripts\Scripts\Components\ExpandedInventoryUI.cs(25,23): warning CS0169: The field 'ExpandedInventoryUI._currentScroll' is never used
+Assembly 'ExpandedChestUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' has passed code security verification
+Successfully compiled ExpandedChestUI safetyCheck=True
+loading Bundles/ExpandedChestUI_Windows.assetbundle
+staged mod bundle: ExpandedChestUI_Windows.assetbundle
+couldn't load Assets/ExpandedChestUIPackage/ExpandedChestUI/ExpandedChestUI.asmdef from asset bundle Bundles/ExpandedChestUI_Windows.assetbundle
+Ignoring Bundles/ExpandedChestUI_Linux.assetbundle: wrong platform
+[Expanded ChestUI Mod]: Expanded ChestUI Mod version: 0.0.1
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 4.565700 ms
+Checking system requirements: PASS
+Ignoring invalid [Unity.Entities.UpdateAfterAttribute] attribute on Unity.Entities.CompanionGameObjectUpdateTransformSystem targeting Unity.Transforms.TransformSystemGroup.
+This attribute can only order systems that are members of the same ComponentSystemGroup instance.
+Make sure that both systems are in the same system group with [UpdateInGroup(typeof(Unity.Entities.SimulationSystemGroup))],
+or by manually adding both systems to the same group's update list.
+Initialize global manager
+Loading data blocks...
+Data blocks finished loading from addressables (319.8675675s)
+Handling loaded data blocks: addressables
+Handling loaded data blocks: f8a04e7b4ea8494da9420f449009c107
+Initialized 7617 data blocks in 0.0522429 s
+Ran post data block load callbacks in 0.0906094 s
+SpriteInstancingAtlas: Packed 5187 sprites (total size: 10609506) into atlas of size 3308x3308 = 10942864 (wasted space: 3.05%) in 54.98 ms
+Global manager Resources.Load
+Manager: started resources load for Global Objects (Main Manager).
+Manager: resources load for Global Objects (Main Manager) finished.
+Start initializing all managers
+Core count is 12
+Job worker count is 4
+CloudSyncDown
+PrefsManager: applying settings for platform variant PlatformConfiguration_PC.
+couldn't initialize discord SDK: Ok InternalError
+Upgrading character e8d6831554e13bdb799e5c4a887957a9 from version 12 to 13: fixing swapped pet talents
+Upgrading character e8d6831554e13bdb799e5c4a887957a9 from version 13 to 14: converting player customization to new format
+Upgrading character 7dcb031b54de6555429027d9038dd4e8 from version 12 to 13: fixing swapped pet talents
+Upgrading character 7dcb031b54de6555429027d9038dd4e8 from version 13 to 14: converting player customization to new format
+Convert activated content bundles for world Feather to new format.
+Convert activated content bundles for world Crabby to new format.
+Loading mod with ID 5128201
+Loading mod with ID 5079247
+using color lookup at Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/StreamingAssets/Textures/ColorGrading.png
+Loading localization from Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/../localization/Localization.csv
+Skipping faction mod Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/StreamingAssets/Conf/Factions\None.json with faction None (0)
+Skipping loot mod Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/StreamingAssets/Conf/Loot\Empty.json for loot table Empty (0)
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Font8L: Already defined glyph #362 Ł
+Font8L: Already defined glyph #363 ł
+Font8L: Already defined glyph #380 Ź
+Font8L: Already defined glyph #381 ź
+Font8B: Already defined glyph #362 Ł
+Font8B: Already defined glyph #363 ł
+Font8B: Already defined glyph #380 Ź
+Font8B: Already defined glyph #381 ź
+Font10L: Already defined glyph #362 Ł
+Font10L: Already defined glyph #363 ł
+Font10L: Already defined glyph #380 Ź
+Font10L: Already defined glyph #381 ź
+Font10B: Already defined glyph #362 Ł
+Font10B: Already defined glyph #363 ł
+Font10B: Already defined glyph #380 Ź
+Font10B: Already defined glyph #381 ź
+Font18B: Already defined glyph #362 Ł
+Font18B: Already defined glyph #363 ł
+Font18B: Already defined glyph #380 Ź
+Font18B: Already defined glyph #381 ź
+[Expanded ChestUI Mod]: Expanded ChestUI Mod loaded successfully
+ECSManager: Found 372 converter type(s)
+Converting 2870 root objects for Default World with 372 converters, 9 post-converters in staging world, and 4 post-converters in final world.
+PugDatabase initialized 2869 prefabs
+[Double Chest Inventory]: Initializing...
+[Double Chest Inventory]: Finished Doubling Chest Inventory Size...
+No iCUE server detected
+Populating pools...
+WaterSim.LazyInitialize: created the surface texture.
+'R8_SRGB' is not supported. RenderTexture::GetTemporary fallbacks to R8G8B8A8_SRGB format on this platform. Use 'SystemInfo.IsFormatSupported' C# API to check format support.
+WaterSim.LazyInitialize: created the state texture.
+WaterSim.LazyInitialize: created the previous state texture.
+Added memory pools for 714 prefabs from PooledGraphicalObjectBank
+Added memory pools for 100 prefabs from PooledParticleSystemBank
+got language code en
+Setting language to English from English
+Unloading 5 Unused Serialized files (Serialized files now loaded: 6)
+UnloadTime: 8.875300 ms
+New season: Valentine
+Unloading 13419 unused Assets to reduce memory usage. Loaded Objects now: 679535.
+Total: 338.091500 ms (FindLiveObjects: 91.832500 ms CreateObjectMapping: 29.575100 ms MarkObjects: 205.777000 ms  DeleteObjects: 10.897800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 679536.
+Total: 247.245300 ms (FindLiveObjects: 73.998500 ms CreateObjectMapping: 21.856100 ms MarkObjects: 150.753200 ms  DeleteObjects: 0.628500 ms)
+

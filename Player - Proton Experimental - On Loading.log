@@ -1,0 +1,69 @@
+Mono path[0] = 'Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/Managed'
+Mono config path = 'Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/MonoBleedingEdge/etc'
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.59f2 (ef281c76c3c1)
+[Subsystems] Discovering subsystems at path Z:/home/tulio/.steam/debian-installation/steamapps/common/Core Keeper/CoreKeeper_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (RADV NAVI23) (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     7936 MB
+    Driver:   32.0.65535.65535
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.345 seconds
+- Finished resetting the current domain, in  0.007 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+--- Startup info ---
+Time (UTC): 2026-02-25T23:05:11Z
+Game version: 1.2.0.4-aded
+Unity version: 6000.0.59f2
+OS version: Windows 10  (10.0.19045) 64bit
+Graphics device: AMD Radeon RX 6600 (RADV NAVI23) (Direct3D11, Direct3D 11.0 [level 11.1])
+--- END Startup info ---
+CommandLineArgs.args[0]: Z:\home\tulio\.steam\debian-installation\steamapps\common\Core Keeper\CoreKeeper.exe
+Initializing Steamworks with AppID 1621690
+Steam API initialized branch=
+CommandLineArgs.args[0]: Z:\home\tulio\.steam\debian-installation\steamapps\common\Core Keeper\CoreKeeper.exe
+PlatformConfiguration: successfully loaded base platform configuration for variant PC.
+skipping disabled mod More Map Reveal
+loaded mod Double Chest Inventory from mod.io (Double Chest Inventory)
+loaded mod ExpandedChestUI from mod.io (Expanded Chest UI)
+skipping disabled mod Autofish
+steam initialized successfully.
+Steam stats received
+Steam stats received
+no subscribed workshop items found.
+steamworkshop loader has been initialized and async mod fetching query task completed
+Creating modified script files at C:/users/steamuser/AppData/Local/Temp/Pugstorm/Core Keeper\ModLoader\Double Chest Inventory
+Assembly 'Double Chest Inventory, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' has passed code security verification
+Successfully compiled Double Chest Inventory safetyCheck=True
+Creating modified script files at C:/users/steamuser/AppData/Local/Temp/Pugstorm/Core Keeper\ModLoader\ExpandedChestUI
+__Roslyn Compile Output__
+C:\users\steamuser\AppData\Local\Temp\Pugstorm\Core Keeper\ModLoader\ExpandedChestUI\Scripts\Scripts\Components\ExpandedInventoryUI.cs(25,23): warning CS0169: The field 'ExpandedInventoryUI._currentScroll' is never used
+Assembly 'ExpandedChestUI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' has passed code security verification
+Successfully compiled ExpandedChestUI safetyCheck=True
+loading Bundles/ExpandedChestUI_Windows.assetbundle
+staged mod bundle: ExpandedChestUI_Windows.assetbundle
+couldn't load Assets/ExpandedChestUIPackage/ExpandedChestUI/ExpandedChestUI.asmdef from asset bundle Bundles/ExpandedChestUI_Windows.assetbundle
+Ignoring Bundles/ExpandedChestUI_Linux.assetbundle: wrong platform
+[Expanded ChestUI Mod]: Expanded ChestUI Mod version: 0.0.1
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 4.565700 ms
+Checking system requirements: PASS
+Ignoring invalid [Unity.Entities.UpdateAfterAttribute] attribute on Unity.Entities.CompanionGameObjectUpdateTransformSystem targeting Unity.Transforms.TransformSystemGroup.
+This attribute can only order systems that are members of the same ComponentSystemGroup instance.
+Make sure that both systems are in the same system group with [UpdateInGroup(typeof(Unity.Entities.SimulationSystemGroup))],
+or by manually adding both systems to the same group's update list.
+Initialize global manager
+Loading data blocks...
